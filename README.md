@@ -233,7 +233,7 @@ Here’s the updated grading criteria with point allocations of **5, 10, or 20 p
 | **Professional Programming Techniques**                              | Apply professional techniques like DRY (Don't Repeat Yourself), Logging, and error handling approaches (LBYL and EAFP) in the codebase.                                         | 10 points   |
 | **Basic Dockerization**                                              | Create a `Dockerfile` to containerize the application. Ensure the application runs properly inside a Docker container.                                               | 5 points  |
 | **Advanced Docker Features**                                         | Implement Docker features like environment variables                                                          | 10 points  |
-| **DevOps and CI/CD Principles GitHub Actions for Continuous Integration (CI)**                   | Set up GitHub Actions to automatically execute tests and build the Docker image whenever code is committed to the repository.                                        | 10 points  |
+| **DevOps and CI/CD Principles GitHub Actions for Continuous Integration (CI)**                   | Set up GitHub Actions to automatically execute tests and build the Docker image whenever code is committed to the repository.                                        | 20 points  |
 | **Documentation and Reflection**                                     | Include a comprehensive README with instructions for running the application, reflection on the development process, and explanation of challenges encountered.       | 5 points   |
 
 **Total Points: 100**
