@@ -1,13 +1,13 @@
 # Module 7: Mid-Term Project – Python Application Development, Containerization, and DevOps
 
 ## Module Overview
-This module consists of two parts:
-1. **Mid-Term Project**: Students will develop and containerize a Python application, refactor it using Object-Oriented Programming (OOP) principles, test it using `pytest`, and automate testing and Docker builds using **GitHub Actions**. Students will choose one of three project options: **Personal Finance Manager**, **Weather Data Aggregator**, or **Inventory Management System**.
-2. **Mid-Term Exam**: The mid-term exam will assess students' understanding of theoretical concepts, including Git, OOP, Docker, and GitHub Actions. The exam will be automatically graded and consist of multiple-choice and short-answer questions.
+This module serves as a comprehensive test of the skills and knowledge students have accumulated throughout the course. It is designed to challenge students not only to apply what they've already learned but also to solve new problems through independent research and exploration. The module consists of two parts:
 
-This module focuses on applying **DevOps** principles through CI/CD automation with GitHub Actions and Docker, emphasizing real-world development workflows.
+1. **Mid-Term Project**: Students will develop and containerize a Python application, refactor it using Object-Oriented Programming (OOP) principles, write unit and integration tests using `pytest`, and automate testing and Docker builds using **GitHub Actions**—a key element of modern DevOps practices. Students will choose one of three project options: **Personal Finance Manager**, **Weather Data Aggregator**, or **Inventory Management System**. 
+   
+   This project emphasizes the importance of reusability in software development. Students are encouraged to reflect on how well their previously developed code can be adapted with minimal changes, promoting efficient and maintainable solutions.
 
----
+2. **Mid-Term Exam**: The mid-term exam will assess students’ understanding of both new and previous theoretical concepts. It will include questions on Git, OOP, Docker, and GitHub Actions, focusing on both practical implementation and conceptual knowledge. The exam will be automatically graded, featuring multiple-choice and short-answer questions.
 
 ## Why GitHub Actions and DevOps?
 GitHub Actions provides an easy way to automate tests and builds by enabling **Continuous Integration (CI)**. It helps catch issues early in the development cycle, ensuring the consistency and reliability of code across environments. Docker ensures applications are portable and run consistently on any platform. This module combines these tools to help students automate workflows and apply modern DevOps practices.
