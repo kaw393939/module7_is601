@@ -198,15 +198,64 @@ file**, and **GitHub Actions workflows**.
 
 ### Grading Criteria
 
-- **Correctness**: The application meets the functional requirements and correctly implements the features.
-- **Testing**: Unit and integration tests are implemented using `pytest`, covering at least 80% of the codebase.
-- **OOP Principles**: The project follows proper OOP principles, utilizing appropriate design patterns and structure.
-- **Dockerization**: The application runs successfully inside a Docker container, and data persists using Docker volumes.
-- **CI/CD**: GitHub Actions workflows are set up to run tests and build Docker images automatically upon commits.
-- **Code Quality**: The code is well-organized, follows PEP 8 standards, and includes clear documentation.
-- **Reflection**: The README file contains a reflection on the project development process, challenges faced, and lessons learned.
+Here’s the updated grading criteria with point allocations of **5, 10, or 20 points**, making sure the total is 100:
 
 ---
+
+### Grading Criteria for Mid-Term Project
+
+| **Criterion**                                                        | **Description**                                                                                                                                                    | **Points** |
+|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| **Git for Version Control**                                          | Utilize Git for version control, maintain a clear commit history, and use branches to manage development. Proper usage of GitHub repository and commits.            | 5 points   |
+| **Unit and Integration Tests with Pytest**                           | Write and execute comprehensive unit and integration tests using `pytest`. Achieve at least 80% test coverage and handle edge cases appropriately.                   | 20 points  |
+| **Object-Oriented Programming (OOP) Principles**                     | Implement appropriate OOP principles such as encapsulation, inheritance, and polymorphism. Use design patterns like Factory or Observer where appropriate.           | 20 points  |
+| **CSV File Manipulation**                                            | Create, read, and manipulate CSV files for data storage. Ensure accurate handling of CSV files, including input validation, reading, and writing.                    | 5 points   |
+| **Professional Programming Techniques**                              | Apply professional techniques like DRY (Don't Repeat Yourself) and error handling approaches (LBYL and EAFP) in the codebase.                                         | 5 points   |
+| **Basic Dockerization**                                              | Create a `Dockerfile` to containerize the application. Ensure the application runs properly inside a Docker container.                                               | 10 points  |
+| **Advanced Docker Features**                                         | Implement Docker features like environment variables, volume management, and proper data persistence.                                                                | 10 points  |
+| **GitHub Actions for Continuous Integration (CI)**                   | Set up GitHub Actions to automatically execute tests and build the Docker image whenever code is committed to the repository.                                        | 10 points  |
+| **DevOps and CI/CD Principles**                                      | Implement DevOps practices to ensure smooth and automated testing and deployment pipelines, ensuring software quality across environments.                           | 10 points  |
+| **Documentation and Reflection**                                     | Include a comprehensive README with instructions for running the application, reflection on the development process, and explanation of challenges encountered.       | 5 points   |
+
+**Total Points: 100**
+
+---
+
+### Detailed Explanation of Point Allocation:
+
+1. **Git for Version Control (5 points)**  
+   Use Git for version control effectively by maintaining a clear commit history and using branches appropriately. 
+
+2. **Unit and Integration Tests with Pytest (20 points)**  
+   Write and execute comprehensive unit and integration tests using `pytest`. Ensure at least **80% test coverage**, and account for both core functionality and edge cases.
+
+3. **Object-Oriented Programming (OOP) Principles (20 points)**  
+   Implement OOP principles, including encapsulation, inheritance, and polymorphism. Utilize design patterns such as Factory Method or Observer where appropriate.
+
+4. **CSV File Manipulation (5 points)**  
+   Ensure correct handling of CSV files for reading, writing, and manipulation. Handle input validation and ensure data integrity.
+
+5. **Professional Programming Techniques (5 points)**  
+   Apply professional coding standards such as the DRY principle and handle errors using LBYL (Look Before You Leap) and EAFP (Easier to Ask Forgiveness than Permission).
+
+6. **Basic Dockerization (10 points)**  
+   Create a `Dockerfile` and ensure the application runs in a Docker container. This includes building, running, and testing the application within a Docker environment.
+
+7. **Advanced Docker Features (10 points)**  
+   Implement advanced Docker features such as environment variables and volume management to ensure persistence and configurability inside the container.
+
+8. **GitHub Actions for Continuous Integration (CI) (10 points)**  
+   Set up GitHub Actions to automatically run tests and build Docker images whenever code is committed. Ensure that CI is functioning correctly.
+
+9. **DevOps and CI/CD Principles (10 points)**  
+   Implement DevOps practices, ensuring automated testing and deployment pipelines. Maintain consistency and quality across different environments through CI/CD principles.
+
+10. **Documentation and Reflection (5 points)**  
+    Provide comprehensive documentation in the `README.md` file, including setup instructions and a reflection on the challenges and lessons learned during the project.
+
+---
+
+This breakdown ensures the total is **100 points** while reflecting the varying degrees of effort required for each learning outcome.
 
 ### Reflect
 
@@ -217,4 +266,3 @@ Write a reflection (600-700 words) on your experience developing the mid-term pr
 - Discuss the challenges you faced and how you overcame them.
 - Reflect on how Docker, GitHub Actions, and OOP principles helped streamline the development process.
 - Consider how you would apply these techniques in real-world software development.
-```
