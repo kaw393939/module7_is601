@@ -182,17 +182,38 @@ ItemID,ItemName,Category,Quantity,Price
 
 ---
 
+Here’s the updated submission instructions with those changes in mind:
+
+---
+
 ### Submit
 
 **Activity Title**: Mid-Term Project Submission  
 **Grading Type**: Points  
-**Submission Instructions**: Submit the following in your GitHub repository:
-1. **GitHub Repository Link**: Submit a link to your GitHub repository containing:
-   - Your **code**, **Docker
+**Submission Instructions**: Submit the following on Canvas and ensure your GitHub repository is properly set up:
 
-file**, and **GitHub Actions workflows**.
-   - A **README.md** file with the reflection, documentation of the project, and instructions for running the application.
-   - A link to the deployed container on a cloud service or DockerHub.
+1. **GitHub Repository Link**:  
+   Submit a link to your GitHub repository on Canvas. The repository should contain:
+   - Your **code**, including all relevant files for your project.
+   - The **Dockerfile** used to containerize your application.
+   - The **GitHub Actions workflows** for automating tests and building Docker images.
+
+2. **README.md** file: Ensure your repository includes a comprehensive `README.md` file with the following sections:
+   - **Project Overview**: A brief description of the project, its features, and the problem it solves.
+   - **Setup Instructions**: Clear and detailed steps for setting up the project locally, including:
+     - Prerequisites (e.g., required packages, Docker installation).
+     - Instructions on how to build and run the application using Docker.
+     - Instructions on how to execute tests using `pytest` and check results.
+   - **Link to Deployed Application**: Provide a link to your application image uploaded and deployed on DockerHub.
+
+3. **Reflection**:  
+   Submit a separate reflection file on Canvas (600-700 words) that includes:
+   - Challenges you encountered during development and how you overcame them.
+   - An assessment of how well you were able to reuse and adapt code from previous modules.
+   - Key lessons learned from the project and new skills acquired during the process.
+
+4. **Submit to Canvas**:  
+   - Submit the GitHub repository link and your reflection file through Canvas by the specified due date.
 
 ---
 
