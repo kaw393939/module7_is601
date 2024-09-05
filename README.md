@@ -250,19 +250,16 @@ Here’s the updated grading criteria with point allocations of **5, 10, or 20 p
 9. **DevOps and CI/CD Principles (10 points)**  
    Implement DevOps practices, ensuring automated testing and deployment pipelines. Maintain consistency and quality across different environments through CI/CD principles.
 
-10. **Documentation and Reflection (5 points)**  
-    Provide comprehensive documentation in the `README.md` file, including setup instructions and a reflection on the challenges and lessons learned during the project.
-
+10. **Documentation (5 points)**  
+    Provide comprehensive documentation in the `README.md` file, including setup instructions.
 ---
-
-This breakdown ensures the total is **100 points** while reflecting the varying degrees of effort required for each learning outcome.
 
 ### Reflect
 
 **Title**: Mid-Term Project Reflection  
 **Grading Type**: Points  
 **Instructions**:  
-Write a reflection (600-700 words) on your experience developing the mid-term project:
+Write a reflection (200-300 words) on your experience developing the mid-term project:
 - Discuss the challenges you faced and how you overcame them.
 - Reflect on how Docker, GitHub Actions, and OOP principles helped streamline the development process.
 - Consider how you would apply these techniques in real-world software development.
