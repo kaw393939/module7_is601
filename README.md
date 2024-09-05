@@ -22,8 +22,7 @@ GitHub Actions provides an easy way to automate tests and builds by enabling **C
 - Apply professional program techniques such as DRY and error handling using LBYL and EAFP.
 - Apply containerization techniques to containerize applications using Docker.
 - Containerize and manage Python applications using Docker, including Dockerfile creation, environment variables, and volume management.
-- Set up GitHub Actions for Continuous Integration (CI), automating the execution of tests and Docker builds.
-- Implement DevOps principles to automate testing and deployment pipelines, ensuring software quality and consistency across environments.
+- Set up GitHub Actions for Continuous Integration (CI), automating the execution of tests and Docker builds to demonstrate Devops principles to ensure software quality.
 
 ---
 
@@ -234,8 +233,7 @@ Here’s the updated grading criteria with point allocations of **5, 10, or 20 p
 | **Professional Programming Techniques**                              | Apply professional techniques like DRY (Don't Repeat Yourself), Logging, and error handling approaches (LBYL and EAFP) in the codebase.                                         | 10 points   |
 | **Basic Dockerization**                                              | Create a `Dockerfile` to containerize the application. Ensure the application runs properly inside a Docker container.                                               | 5 points  |
 | **Advanced Docker Features**                                         | Implement Docker features like environment variables                                                          | 10 points  |
-| **GitHub Actions for Continuous Integration (CI)**                   | Set up GitHub Actions to automatically execute tests and build the Docker image whenever code is committed to the repository.                                        | 10 points  |
-| **DevOps and CI/CD Principles**                                      | Implement DevOps practices to ensure smooth and automated testing and deployment pipelines, ensuring software quality across environments.                           | 10 points  |
+| **DevOps and CI/CD Principles GitHub Actions for Continuous Integration (CI)**                   | Set up GitHub Actions to automatically execute tests and build the Docker image whenever code is committed to the repository.                                        | 10 points  |
 | **Documentation and Reflection**                                     | Include a comprehensive README with instructions for running the application, reflection on the development process, and explanation of challenges encountered.       | 5 points   |
 
 **Total Points: 100**
@@ -265,13 +263,11 @@ Here’s the updated grading criteria with point allocations of **5, 10, or 20 p
 7. **Advanced Docker Features (5 points)**  
    Implement advanced Docker features such as environment variables inside the container.
 
-8. **GitHub Actions for Continuous Integration (CI) (10 points)**  
+8. **DevOps and CI/CD Principles (20 points) GitHub Actions for Continuous Integration (CI) (10 points)**  
    Set up GitHub Actions to automatically run tests and build Docker images whenever code is committed. Ensure that CI is functioning correctly.
-
-9. **DevOps and CI/CD Principles (10 points)**  
    Implement DevOps practices, ensuring automated testing and deployment pipelines. Maintain consistency and quality across different environments through CI/CD principles.
 
-10. **Documentation (5 points)**  
+9. **Documentation (5 points)**  
     Provide comprehensive documentation in the `README.md` file, including setup instructions.
 ---
 
