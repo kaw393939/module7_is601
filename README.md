@@ -231,9 +231,9 @@ Here’s the updated grading criteria with point allocations of **5, 10, or 20 p
 | **Unit and Integration Tests with Pytest**                           | Write and execute comprehensive unit and integration tests using `pytest`. Achieve at least 80% test coverage and handle edge cases appropriately.                   | 20 points  |
 | **Object-Oriented Programming (OOP) Principles**                     | Implement appropriate OOP principles such as encapsulation, inheritance, and polymorphism. Use design patterns like Factory or Observer where appropriate.           | 20 points  |
 | **CSV File Manipulation**                                            | Create, read, and manipulate CSV files for data storage. Ensure accurate handling of CSV files, including input validation, reading, and writing.                    | 5 points   |
-| **Professional Programming Techniques**                              | Apply professional techniques like DRY (Don't Repeat Yourself) and error handling approaches (LBYL and EAFP) in the codebase.                                         | 5 points   |
-| **Basic Dockerization**                                              | Create a `Dockerfile` to containerize the application. Ensure the application runs properly inside a Docker container.                                               | 10 points  |
-| **Advanced Docker Features**                                         | Implement Docker features like environment variables, volume management, and proper data persistence.                                                                | 10 points  |
+| **Professional Programming Techniques**                              | Apply professional techniques like DRY (Don't Repeat Yourself), Logging, and error handling approaches (LBYL and EAFP) in the codebase.                                         | 10 points   |
+| **Basic Dockerization**                                              | Create a `Dockerfile` to containerize the application. Ensure the application runs properly inside a Docker container.                                               | 5 points  |
+| **Advanced Docker Features**                                         | Implement Docker features like environment variables                                                          | 10 points  |
 | **GitHub Actions for Continuous Integration (CI)**                   | Set up GitHub Actions to automatically execute tests and build the Docker image whenever code is committed to the repository.                                        | 10 points  |
 | **DevOps and CI/CD Principles**                                      | Implement DevOps practices to ensure smooth and automated testing and deployment pipelines, ensuring software quality across environments.                           | 10 points  |
 | **Documentation and Reflection**                                     | Include a comprehensive README with instructions for running the application, reflection on the development process, and explanation of challenges encountered.       | 5 points   |
@@ -256,14 +256,14 @@ Here’s the updated grading criteria with point allocations of **5, 10, or 20 p
 4. **CSV File Manipulation (5 points)**  
    Ensure correct handling of CSV files for reading, writing, and manipulation. Handle input validation and ensure data integrity.
 
-5. **Professional Programming Techniques (5 points)**  
-   Apply professional coding standards such as the DRY principle and handle errors using LBYL (Look Before You Leap) and EAFP (Easier to Ask Forgiveness than Permission).
+5. **Professional Programming Techniques (10 points)**  
+   Apply professional coding standards such as the DRY principle, logging and handle errors using LBYL (Look Before You Leap) and EAFP (Easier to Ask Forgiveness than Permission).
 
 6. **Basic Dockerization (10 points)**  
    Create a `Dockerfile` and ensure the application runs in a Docker container. This includes building, running, and testing the application within a Docker environment.
 
-7. **Advanced Docker Features (10 points)**  
-   Implement advanced Docker features such as environment variables and volume management to ensure persistence and configurability inside the container.
+7. **Advanced Docker Features (5 points)**  
+   Implement advanced Docker features such as environment variables inside the container.
 
 8. **GitHub Actions for Continuous Integration (CI) (10 points)**  
    Set up GitHub Actions to automatically run tests and build Docker images whenever code is committed. Ensure that CI is functioning correctly.
